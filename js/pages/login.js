@@ -25,23 +25,24 @@ var Login = function() {
                     e.closest('.help-block').remove();
                 },
                 rules: {
-                    'login-email': {
+                    'login-username': {
                         required: true,
                         email: true
                     },
                     'login-password': {
                         required: true,
-                        minlength: 5
+                        minlength: 5,
                     }
                 },
                 messages: {
-                    'login-email': 'Please enter your account\'s email',
+                    'login-username': 'Please enter your username',
                     'login-password': {
                         required: 'Please provide your password',
                         minlength: 'Your password must be at least 5 characters long'
                     }
                 }
             });
+
         }
     };
 }();

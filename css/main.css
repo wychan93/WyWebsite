@@ -205,7 +205,7 @@ header nav {
 }
 
 .site-section-top {
-    padding-top: 114px;
+    /*padding-top: 114px;*/
     overflow: hidden;
 }
 
@@ -351,6 +351,7 @@ header nav {
     display: block;
     position: relative;
     overflow: hidden;
+    max-height: 500px;
 }
 
 .portfolio-item > a > img {
