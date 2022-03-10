@@ -36,6 +36,10 @@
 .logo{
 	margin-right: auto;
 }
+.logo img{
+	height: 80px;
+	padding: 20px;
+}
 #header{
 	background-color: transparent;
 }
@@ -159,7 +163,7 @@
 		width: 25%;
 	}
 	.ui-block a>span{
-		font-size: 20px!important;
+		font-size: 20px!important;	
 		text-align: left;
 	}
 	.short-column, .long-column , .full-column, .half-column{
